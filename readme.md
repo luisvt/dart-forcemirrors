@@ -1,6 +1,6 @@
 ### Dart Force Mirrors ###
 
-![LOGO!](https://raw.github.com/jorishermans/dart-force/master/resources/dart_force_logo.jpg)
+![LOGO!](https://raw.github.com/ForceUniverse/dart-force/master/resources/dart_force_logo.jpg)
 
 Part of the Dart Force Framework.
 
@@ -10,8 +10,8 @@ A mirrors helper library for the dart force framework
 
 This is how you can scrap the metadata info from an object. 
 
-	MetaDataHelper<MetaData> mirrorHelper = new MetaDataHelper<MetaData>();
-  	List<MetaDataValue<MetaData>> mirrorModels = mirrorHelper.getMirrorValues(new Anno());
+	MetaDataHelper<MetaData, MethodMirror> mirrorHelper = new MetaDataHelper<MetaData, MethodMirror>();
+  	List<MetaDataValue<MetaData>> mirrorModels = mirrorHelper.from(new Anno());
   	
 The annotated class.
 
@@ -43,7 +43,7 @@ If you are new to Git or GitHub, please read [this guide](https://help.github.co
 
 #### Dart Force ####
 
-Realtime web framework for dart that uses forcemvc & forcemirrors [source code](https://github.com/jorishermans/dart-force)
+Realtime web framework for dart that uses forcemvc & forcemirrors [source code](https://github.com/ForceUniverse/dart-force)
 
 #### Twitter ####
 
